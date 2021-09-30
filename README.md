@@ -28,11 +28,10 @@ External replication solutions will recover from a disk failure by re-replicatin
 Using Longhorn, you can control the granularity to the maximum, easily create a disaster recovery volume in another Kubernetes cluster and fail over to it in the event of an emergency.
 
 If your main cluster fails, you can bring up the app in the DR cluster quickly with a defined RPO and RTO.
-![Architecture, the OpenEBS Architecture](/images/how-longhorn-works.svg)
+<img src="/images/images/how-longhorn-works.svg">
 
 For more details on the architecture of Longhorn see the following link:
- [![Architecture, the Longhorn Architecture](/images/longhorn-horizontal-color.png){:height="150px" width="157px"}{: style="float:right"}](https://longhorn.io/docs/1.2.0/concepts/ "the Longhorn  Architecture"){:target="_blank" }
-
+<a href="<img src="https://longhorn.io/docs/1.2.0/concepts/" title="the Longhorn Architecture" target="doc">/images/longhorn-horizontal-color.png" style="height:150px;width:157px;float:right"></a>
 
  In this post you will see :
  - How to Provisioning EBS volume with Terraform
