@@ -31,7 +31,8 @@ If your main cluster fails, you can bring up the app in the DR cluster quickly w
 <img src="/images/how-longhorn-works.svg">
 
 For more details on the architecture of Longhorn see the following link:
-<a href="https://longhorn.io/docs/1.2.0/concepts/" title="the Longhorn Architecture" target="doc"><img src="/images/longhorn-horizontal-color.png" style="height:80px;float:right"></a>
+
+<a href="https://longhorn.io/docs/1.2.0/concepts/" title="the Longhorn Architecture" target="doc"><img src="/images/longhorn-horizontal-color.png" style="height:80px;"></a>
 
  In this post you will see :
  - How to Provisioning EBS volume with Terraform
