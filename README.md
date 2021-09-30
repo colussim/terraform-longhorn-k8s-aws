@@ -3,6 +3,7 @@ After having been interested in the pure kubernetes storage management part prop
 I wanted to test another Kubernetes storage solution of the same type as OpenEBS.
 
 I looked into **Longhorn !** <img src="/images/longhorn-icon-white.png" style="height:30px;width:30px;float:right">
+
 it is an open source lightweight, reliable and easy to use distributed block storage system for Kubernetes.
 Longhorn is a project initially developed by <a href="https://rancher.com/docs/rancher/v2.5/en/longhorn/Rancher" target="Rancher">Rancher</a> and is part of <a href="https://www.cncf.io/sandbox-projects/" target="CNCF" >the "Sandbox projects" of the Cloud Native Computing Foundation (CNCF).</a>
 
