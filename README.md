@@ -2,7 +2,8 @@
 After having been interested in the pure kubernetes storage management part proposed by HPE : **HPE Ezmeral Data Fabric** (formerly MapR Data Platform) delivered with their large scale containerized application deployment and management tool : **HPE Ezmeral Container Platform**,as well as has OpenEBS which is a storage solution for Kubernetes , it is a broadly deployed open source storage platform that provides persistent and containerized block storage for DevOps and container environments on Kubernetes. OpenEBS adopts Container Attached Storage (CAS) approach.
 I wanted to test another Kubernetes storage solution of the same type as OpenEBS.
 
-I looked into **Longhorn !** <img src="/images/longhorn-icon-white.png" style="height:30px;width:30px;float:right">, it is an open source lightweight, reliable and easy to use distributed block storage system for Kubernetes.
+I looked into **Longhorn !** <img src="/images/longhorn-icon-white.png" style="height:30px;width:30px;float:right">
+it is an open source lightweight, reliable and easy to use distributed block storage system for Kubernetes.
 Longhorn is a project initially developed by <a href="https://rancher.com/docs/rancher/v2.5/en/longhorn/Rancher" target="Rancher">Rancher</a> and is part of <a href="https://www.cncf.io/sandbox-projects/" target="CNCF" >the "Sandbox projects" of the Cloud Native Computing Foundation (CNCF).</a>
 
 ## Features
