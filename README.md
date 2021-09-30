@@ -59,8 +59,19 @@ In a production configuration it is recommended to have 3 workers nodes in its k
 ## Initial setup
 
 - Clone the repository and install the dependencies:
-{% highlight ruby %}
+''
 $ git clone https://github.com/colussim/terraform-longhorn-k8s-aws.git
 $ cd terraform-longhorn-k8s-aws
 terraform-longhorn-k8s-aws $>  
-{% endhighlight %}
+''
+
+Next step , see details [here](https://techlabnews.com/terraform-longhorn-k8s-aws/ "Deploy a Kubernetes cluster using Ansible in AWS")
+
+## Resources :
+
+  <a href="https://github.com/longhorn/longhorn/tree/master/chart" target="charts"> <img src="/images/helm.png" style="height:30px;width:30px;"> Longhorn Charts</a>
+
+<a href="https://longhorn.io/" target="doc"><img src="/images/longhorn-icon-white.png" style="height:30px;width:30px;"> Longhorn Documentation</a>
+
+
+
