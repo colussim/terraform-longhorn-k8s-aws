@@ -9,5 +9,4 @@ volumeBindingMode: Immediate
 parameters:
   numberOfReplicas: "2"
   staleReplicaTimeout: "2880"
-  fromBackup: "numberOfReplicas=2,staleReplicaTimeout=30"
-  fsType: "ext4"
+  fromBackup: ""
