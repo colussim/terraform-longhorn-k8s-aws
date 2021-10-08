@@ -1,0 +1,9 @@
+apiVersion: snapshot.storage.k8s.io/v1
+kind: VolumeSnapshot
+metadata:
+  name: vol-snapshot-mysql-data01
+  namespace: student1
+spec:
+  volumeSnapshotClassName: longhorn-demo-snap
+  source:
+    persistentVolumeClaimName: pvc-mysql-data01

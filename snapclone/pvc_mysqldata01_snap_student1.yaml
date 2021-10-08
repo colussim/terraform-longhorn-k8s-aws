@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-mysqldata01-clone-student1
+  namespace: student1
+spec:
+  storageClassName: longhorn-demo
+  dataSource:
+    name: vol-snapshot-mysql-data01
+    kind: VolumeSnapshot
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 15Gi
